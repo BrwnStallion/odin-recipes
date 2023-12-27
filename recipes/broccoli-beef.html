@@ -18,12 +18,17 @@
             font-style:italic;
             font-size: 17px
         }
+        /* it's a good idea to include img dims up front; makes loading a lot smoother. the page already knows how much space is required */
+        img {
+            height: auto;
+            width: 700px;
+        }
         </style>
     </head>
 
     <body>
         <h1>Broccoli Beef</h1>
-        <img src="img/broccoli-beef.jpg" alt="Cooked broccoli beef dish" width="700">
+        <img src="img/broccoli-beef.jpg" alt="Cooked broccoli beef dish">
         <h3>Description</h3>
         <p class="desc">
             Broccoli beef is a classic asian dish with very straightforward preparation. Served over rice or noodles, this dish will affordably satisfy your appetite and tastebuds.
