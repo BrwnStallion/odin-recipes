@@ -1,17 +1,44 @@
 /* stylesheet for webpages */
 
-h3 {
-    color:purple;
+* {
+    font-family: Georgia, Cambria, Garamond, serif;
 }
-.desc {
-    color:rgb(122, 95, 241);
-    font-family:"Arial";
-    font-size: 16px;
+
+.subtitle {
+    font-size: 24px;
+    font-weight: bold;
 }
+
+.footer {
+    font-size: 18 px;
+    font-weight: bold;
+}
+
+.page-title {
+    color: rgb(71, 71, 71);
+}
+
 .subsection {
-    font-style:italic;
-    font-size: 17px
+    font-style: italic;
+    font-size: 20px
 }
+
+.desc {
+    color: rgb(0, 0, 0);
+}
+
+.list,
+.steps,
+.desc {
+    font-size: 18px;
+}
+
+.footer.list {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight:100;
+}
+
 /* it's a good idea to include img dims up front; makes loading a lot smoother. the page already knows how much space is required */
 img {
     height: auto;
