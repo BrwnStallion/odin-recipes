@@ -1,7 +1,19 @@
 /* stylesheet for webpages */
 
+html {
+    box-sizing: border-box;
+}
+
+/* I'm not sure yet why this does what it does */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 * {
     font-family: Georgia, Cambria, Garamond, serif;
+    border: 2px solid red;
 }
 
 .subtitle {
@@ -31,6 +43,7 @@
 .steps,
 .desc {
     font-size: 18px;
+    list-style: none;
 }
 
 .footer.list {
