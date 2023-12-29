@@ -6,14 +6,19 @@ html {
 
 /* I'm not sure yet why this does what it does */
 *,
-*::before,
-*::after {
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
 * {
     font-family: Georgia, Cambria, Garamond, serif;
     border: 2px solid red;
+}
+
+header {
+    font-family: monospace;
+    font-size: 30px;
 }
 
 .subtitle {
@@ -57,7 +62,9 @@ html {
 }
 
 /* it's a good idea to include img dims up front; makes loading a lot smoother. the page already knows how much space is required */
-img {
+img.dish-image {
     height: auto;
-    width: 700px;
+    width: 600px;
+    display:block;
+    margin: 10px;
 }
