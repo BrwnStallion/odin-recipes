@@ -11,14 +11,79 @@ html {
     box-sizing: inherit;
 }
 
-* {
-    font-family: Georgia, Cambria, Garamond, serif;
-    border: 2px solid red;
+@font-face {
+    font-family: alegreyasans;
+    src: url(alegreyasans/AlegreyaSans-Regular.ttf);
 }
 
-header {
-    font-family: monospace;
+
+/* @import url(https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap); */
+
+* {
+    /* font-family: 'Hedvig Letters Serif', serif; */
+    border: 1px solid red;
+    background-color: rgb(73, 131, 148);
+}
+
+.page-top {
+    margin: -10px -10px 0 -10px;
+    background-color: rgb(73, 131, 148);
+    display: flex;
+}
+
+.header {
+    font-family: 'Hedvig Letters Serif';
     font-size: 30px;
+    font-weight: 500;
+    color: rgb(226, 226, 226);
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top-nav {
+    /* display: flex; */
+    margin-left: 100px;
+    margin-right: auto;
+    padding-top: 8px;
+}
+
+.top-nav a {
+    font-family: alegreyasans;
+    color: rgb(226, 226, 226);
+    font-size: 20px;
+}
+
+.top-nav li {
+    color: rgb(226, 226, 226);
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+}
+
+.top-nav li:last-child {
+    margin-right: 0;
+}
+
+/* .top-nav ul */
+
+
+/* remove link underlines */
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+/* remove link blue coloring */
+a {
+    color: inherit;
 }
 
 .subtitle {
@@ -65,6 +130,6 @@ header {
 img.dish-image {
     height: auto;
     width: 600px;
-    display:block;
+    display: block;
     margin: 10px;
 }
