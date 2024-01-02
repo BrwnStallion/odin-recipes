@@ -21,7 +21,7 @@ font-family: alegreyasans;
 
 * {
     /* font-family: 'Hedvig Letters Serif', serif; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: rgb(73, 131, 148);
 }
 
@@ -44,9 +44,9 @@ font-family: alegreyasans;
 
 .top-nav {
     /* display: flex; */
+    margin: auto;
     /* margin-left: 75px; */
     /* margin-right: auto; */
-    margin: auto 75px;
     /* padding-top: 8px; */
 }
 
@@ -55,25 +55,34 @@ font-family: alegreyasans;
     color: rgb(226, 226, 226);
     font-size: 20px;
     padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
 }
 
 .top-nav li {
     color: rgb(226, 226, 226);
     list-style: none;
-    display: inline;
-    margin: 0;
-    /* margin-right: 5px; */
-    /* padding: 8px 10px; */
-}
-
-.top-nav li:last-child {
-    margin-right: 0;
+    display: inline-block;
+    margin: 0px;
+    /* border: 1px solid red; */
 }
 
 .top-nav a {
     /* background-color: rgb(122, 176, 207); */
     background: linear-gradient(rgb(46, 70, 77), rgb(57, 116, 119));
     padding: 8px 10px;
+    margin: 0px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.top-nav li:last-child a {
+    /* margin-right: 0px; */
+    border: 0px;
+    border-radius: 0 5px 5px 0;
+}
+
+.top-nav li:first-child a {
+    border-radius: 5px 0 0 5px;
 }
 
 /* .top-nav ul */
