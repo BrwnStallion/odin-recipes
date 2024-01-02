@@ -85,8 +85,10 @@ font-family: alegreyasans;
     border-radius: 5px 0 0 5px;
 }
 
-/* .top-nav ul */
-
+.top-nav a:hover {
+    background: rgb(64, 97, 107);
+    box-shadow: inset 0px 0px 5px 1px black;
+}
 
 /* remove all link underlines */
 a:link {
