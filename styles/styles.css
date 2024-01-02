@@ -2,6 +2,7 @@
 
 html {
     box-sizing: border-box;
+    background-color: rgb(199, 177, 148);
 }
 
 /* I'm not sure yet why this does what it does */
@@ -12,7 +13,7 @@ html {
 }
 
 @font-face {
-font-family: alegreyasans;
+    font-family: alegreyasans;
     src: url(alegreyasans/AlegreyaSans-Regular.ttf);
 }
 
@@ -20,16 +21,16 @@ font-family: alegreyasans;
 /* @import url(https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap); */
 
 * {
-    /* font-family: 'Hedvig Letters Serif', serif; */
+    font-family: 'Hedvig Letters Serif', serif;
     /* border: 1px solid red; */
-    background-color: rgb(73, 131, 148);
+    /* background-color: rgb(73, 131, 148); */
 }
 
 .page-top {
     margin: -10px -10px 0 -10px;
     background-color: rgb(73, 131, 148);
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header {
@@ -40,7 +41,7 @@ font-family: alegreyasans;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header a {
@@ -49,7 +50,7 @@ font-family: alegreyasans;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .top-nav {
@@ -61,7 +62,7 @@ font-family: alegreyasans;
 }
 
 .top-nav-ul {
-    font-family: alegreyasans;
+    /* font-family: alegreyasans; */
     color: rgb(226, 226, 226);
     font-size: 20px;
     padding: 0;
@@ -79,6 +80,7 @@ font-family: alegreyasans;
 
 .top-nav a {
     /* background-color: rgb(122, 176, 207); */
+    font-family: alegreyasans;
     background: linear-gradient(rgb(46, 70, 77), rgb(57, 116, 119));
     padding: 8px 10px;
     margin: 0px;
@@ -118,6 +120,14 @@ a {
     color: inherit;
 }
 
+/* BODY STYLING */
+
+.page-body {
+    background-color: rgb(199, 177, 148);
+    margin: -20px -10px 0px -10px;
+    padding-left: 10px;
+}
+
 .subtitle {
     font-size: 24px;
     font-weight: bold;
@@ -130,6 +140,9 @@ a {
 
 .page-title {
     color: rgb(71, 71, 71);
+    /* font-size: 30px; */
+    border: 1px solid red;
+    display: block;
 }
 
 .subsection {
