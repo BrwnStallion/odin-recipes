@@ -12,7 +12,7 @@ html {
 }
 
 @font-face {
-    font-family: alegreyasans;
+font-family: alegreyasans;
     src: url(alegreyasans/AlegreyaSans-Regular.ttf);
 }
 
@@ -39,36 +39,47 @@ html {
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 0;
 }
 
 .top-nav {
     /* display: flex; */
-    margin-left: 100px;
-    margin-right: auto;
-    padding-top: 8px;
+    /* margin-left: 75px; */
+    /* margin-right: auto; */
+    margin: auto 75px;
+    /* padding-top: 8px; */
 }
 
-.top-nav a {
+.top-nav-ul {
     font-family: alegreyasans;
     color: rgb(226, 226, 226);
     font-size: 20px;
+    padding: 0;
 }
 
 .top-nav li {
     color: rgb(226, 226, 226);
     list-style: none;
     display: inline;
-    margin-right: 5px;
+    margin: 0;
+    /* margin-right: 5px; */
+    /* padding: 8px 10px; */
 }
 
 .top-nav li:last-child {
     margin-right: 0;
 }
 
+.top-nav a {
+    /* background-color: rgb(122, 176, 207); */
+    background: linear-gradient(rgb(46, 70, 77), rgb(57, 116, 119));
+    padding: 8px 10px;
+}
+
 /* .top-nav ul */
 
 
-/* remove link underlines */
+/* remove all link underlines */
 a:link {
     text-decoration: none;
 }
