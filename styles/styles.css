@@ -29,6 +29,7 @@ font-family: alegreyasans;
     margin: -10px -10px 0 -10px;
     background-color: rgb(73, 131, 148);
     display: flex;
+    border: 1px solid red;
 }
 
 .header {
@@ -36,15 +37,24 @@ font-family: alegreyasans;
     font-size: 30px;
     font-weight: 500;
     color: rgb(226, 226, 226);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    border: 1px solid red;
+}
+
+.header a {
     padding-left: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    border: 1px solid red;
 }
 
 .top-nav {
     /* display: flex; */
-    margin: auto;
+    margin: auto auto auto 75px;
     /* margin-left: 75px; */
     /* margin-right: auto; */
     /* padding-top: 8px; */
@@ -86,7 +96,7 @@ font-family: alegreyasans;
 }
 
 .top-nav a:hover {
-    background: rgb(64, 97, 107);
+    background: rgb(52, 79, 87);
     box-shadow: inset 0px 0px 5px 1px black;
 }
 
