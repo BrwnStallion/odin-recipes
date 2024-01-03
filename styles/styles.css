@@ -129,7 +129,7 @@ a {
 }
 
 .subtitle {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -154,12 +154,7 @@ a {
     color: rgb(0, 0, 0);
 }
 
-.spanned {
-    display: inline-flex;
-}
-
 .list,
-.steps,
 .desc {
     font-size: 18px;
     list-style: none;
