@@ -185,14 +185,54 @@ a {
     margin-bottom: 0px;
 }
 
-.footer {
-    font-weight: bold;
+/* PAGE BOTTOM NAVIGATION SECTION */
+
+.page-bottom {
+    background-color: rgb(73, 131, 148);
+    margin: 0px -10px -20px -10px;
+    /* border: 1px solid red; */
 }
 
-.footer.list {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    font-weight:100;
+.footer {
+    font-weight: 100;
+    font-size: 20px;
+    padding: 10px 0 5px 10px;
+}
+
+.footer,
+.page-bottom a {
+    color: rgb(226, 226, 226);
+}
+
+.page-bottom ul {
+    font-family: alegreyasans;
+    font-size: 15px;
+    font-weight: 100;
+    font-variant: small-caps;
+    list-style: none;
+    margin: 0px 0px 10px 0px;
+    /* border: 1px solid red; */
+}
+
+.bot-nav-ul li {
+    /* border: 1px solid red; */
+    padding: 0px;
+}
+
+.bot-nav-ul li:first-child {
+    margin-bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.bot-nav-ul li:last-child {
+    padding-bottom: 8px;
+}
+
+.bot-nav-ul a {
+    /* padding: 10px 5px 10px 5px; */
+    padding: 8px;
+    /* border: 1px solid red; */
 }
 
 /* it's a good idea to include img dims up front; makes loading a lot smoother. the page already knows how much space is required */
